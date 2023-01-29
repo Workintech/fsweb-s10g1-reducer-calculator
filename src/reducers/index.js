@@ -62,7 +62,7 @@ const reducer = (state, action) => {
     case TOTAL_MEMO:
       return {
         ...state,
-        total: state.memory,
+        total: state.memory + state.total,
       };
 
     case CLEAR_MEMO:
