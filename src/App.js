@@ -1,7 +1,6 @@
 import React from 'react';
 import { useReducer } from 'react';
 import reducer, { initialState } from './reducers';
-import { applyNumber } from './actions';
 
 import TotalDisplay from './components/TotalDisplay';
 import CalcButton from './components/CalcButton';
